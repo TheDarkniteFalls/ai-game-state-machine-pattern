@@ -1,0 +1,20 @@
+{
+  "name": "ai-game-state-machine-pattern",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A tiny deterministic state-machine pattern for AI-assisted game development.",
+  "type": "module",
+  "scripts": {
+    "demo": "node examples/demo.mjs",
+    "test": "node --test",
+    "check": "node --check src/career-machine.mjs && node --check examples/demo.mjs && node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheDarkniteFalls/ai-game-state-machine-pattern.git"
+  }
+}
