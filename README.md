@@ -1,5 +1,17 @@
 # AI Game State Machine Pattern
 
+<!-- toolkit-trust-card:start -->
+> **Public contract:** Experimental pattern · about 10 min · Node.js 20+ · no model · no network
+>
+> **Operation:** Read-only check; examples may use temporary files
+>
+> **A pass establishes:** Illegal actions remain non-mutating, inspection is read-only, obligations persist, and seeded replay is deterministic.
+>
+> **It does not establish:** State-machine correctness does not prove that the game is understandable, balanced, emotional, or fun.
+>
+> **First check:** `npm test`
+<!-- toolkit-trust-card:end -->
+
 A tiny runnable example of how a state machine can keep an AI-assisted game
 coherent while features, screens, and rules are changing quickly.
 
